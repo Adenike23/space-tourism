@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+nav ul{
+    display: flex;
+    padding: 1.5rem 4rem;
+    gap: 7rem;
+    list-style-type: none;
+    background: linear-gradient(to right, rgba(29, 28, 28, 0.93), rgb(8, 8, 79));
+}
+nav li{
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+body{
+    background-image: url(/images/background-home-desktop.jpg);
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15rem 9rem;
+    /* gap: 5rem; */
+}
+.main-text{
+    color: white;
+    width: 35%;
+    text-align: center;
+    align-self: center;
+}
+.main-text p{
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+.main-text h1{
+    font-size: 120px;
+    font-weight: 100;
+    margin: 1.5rem 0;
+}
+.main-text h3{
+    line-height: 1.6;
+}
+.main-image{
+    background-color: white;
+    border-radius: 50%;
+    padding: 6.5rem 5rem;
+    text-align: center;
+    margin-right: 10rem;
+}
+section{
+    background-image: url(/images/background-destination-desktop.jpg);
+    color: white;
+    padding: 3rem 8rem;
+}
+.section-top{
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+.section-top h3{
+    color: white;
+}
+.section-top p{
+    color: grey;
+    font-size: 20px;
+}
+#moon, #mars, #europa, #titan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+#moon img, #mars img, #europa img, #titan img{
+    width: 30%;
+}
+#section-text{
+    width: 35%;
+}
+#section ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    justify-content: end;
+    width: 75%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#section-text p{
+    margin: 2rem 0;
+    font-size: 80px;
+    text-align: start;
+}
+#section-text h4{
+    line-height: 1.6;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid white;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+#mars, #europa, #titan{
+    display: none;
+}
+#section{
+    display: none;
+}
+article{
+    display: none;
+    padding: 4rem 0 0 2rem;
+    background-image: url(/images/background-crew-desktop.jpg);
+}
+.article-top{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 82%;
+    margin: 0 auto;
+}
+.article-top p{
+    color: grey;
+    font-size: 20px;
+}
+.article-top h3{
+    color: white;
+    letter-spacing: 3px;
+}
+.Ansari, .Douglas, .Victor, .Mark{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Ansari img, .Douglas img, .Victor img, .Mark img{
+    width: 22% !important;
+}
+.douglasBio, .victorBio, .markBio{
+    padding-top: 5rem;
+}
+.bio{
+    color: white;
+    width: 33%;
+}
+.bio h1{
+    color: grey;
+}
+.bio h2{
+    margin: 6px 0 22px 0;
+    font-size: 50px;
+}
+.bio h4{
+    line-height: 1.5;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.owl-dot{
+    border-radius: 50px;
+    background-color: grey;
+    padding: 7px;
+}
+.owl-dot.active{
+    background-color: white;
+}
+.owl-nav{
+    display: none;
+}
+.lastSection{
+    display: none;
+    /* padding: 4rem 9rem; */
+    background-image: url(/images/background-technology-desktop.jpg);
+}
+.content, .content2, .content3{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    padding: 4rem 9rem;
+}
+.content2, .content3{
+    display: none;
+}
+.leftSection{
+    display: flex;
+    align-items: center;
+}
+.num{
+    position: relative;
+    bottom: -100%;
+    width: 40%;
+}
+.num p{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 1.5rem 2rem;
+    width: 6%;
+    border: 2px solid grey;
+    margin: 13px;
+    font-size: 21px;
+}
+.technologyText{
+    color: white;
+    width: 55%;
+    margin: 0 3rem;
+}
+.technologyText h1{
+    font-size: 32px;
+    margin: 1rem 0 1.5rem 0;
+}
+.technologyText h4{
+    line-height: 1.5;
+}
+.content img{
+    width: 40%;
+    margin: 0 auto;
+}
